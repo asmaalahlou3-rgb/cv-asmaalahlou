@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asmaa Lahlou | CV Digital</title>
+    <title>Asmaa Lahlou | CV Digital & Media Buying</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -26,11 +26,12 @@
             backdrop-filter: blur(15px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 24px;
-            transition: transform 0.3s ease, border-color 0.3s ease;
+            transition: all 0.3s ease;
         }
 
         .glass:hover {
             border-color: rgba(129, 140, 248, 0.4);
+            transform: translateY(-2px);
         }
 
         .accent-text {
@@ -55,8 +56,9 @@
         @media print {
             .no-print { display: none; }
             body { background: white; color: black; }
-            .glass { border: 1px solid #eee; background: white; color: black; backdrop-filter: none; }
+            .glass { border: 1px solid #eee; background: white !important; color: black !important; backdrop-filter: none; }
             .accent-text { -webkit-text-fill-color: #4f46e5; }
+            .text-slate-400, .text-slate-500 { color: #666 !important; }
         }
     </style>
 </head>
@@ -71,7 +73,7 @@
             </div>
             
             <h1 class="text-4xl md:text-5xl font-extrabold mb-3 tracking-tight">Asmaa Lahlou</h1>
-            <p class="text-xl md:text-2xl font-semibold accent-text mb-8 uppercase tracking-widest">Directrice Commerciale Média</p>
+            <p class="text-xl md:text-2xl font-semibold accent-text mb-8 uppercase tracking-widest">Directrice Commerciale Média & Acquisition</p>
             
             <div class="flex flex-wrap justify-center gap-6 no-print">
                 <a href="mailto:asmaalahlou3@gmail.com" class="flex items-center gap-2 hover:text-indigo-400 transition">
@@ -89,21 +91,21 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="space-y-8">
                 <section class="glass p-6">
-                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Profil</h2>
-                    <p class="text-slate-400 text-sm leading-relaxed italic">
-                        "Experte en stratégie média avec plus de 20 ans d'expérience. Spécialisée dans la gestion de grands comptes, le développement commercial et l'optimisation des revenus publicitaires."
+                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Profil Professionnel</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Experte en stratégie média avec 20 ans d'expérience. Spécialisée dans la gestion de comptes stratégiques et actuellement en pleine expansion vers le <strong>Media Buying digital</strong>.
                     </p>
                 </section>
 
                 <section class="glass p-6">
-                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Expertises</h2>
+                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Compétences Clés</h2>
                     <div class="flex flex-wrap gap-2">
                         <span class="badge">Négociation B2B</span>
-                        <span class="badge">Stratégie Média</span>
-                        <span class="badge">Management</span>
+                        <span class="badge">Media Buying</span>
+                        <span class="badge">Meta Ads</span>
+                        <span class="badge">Stratégie 360°</span>
                         <span class="badge">Grands Comptes</span>
-                        <span class="badge">Marketing Digital</span>
-                        <span class="badge">Vente d'Espaces</span>
+                        <span class="badge">Management</span>
                     </div>
                 </section>
 
@@ -112,19 +114,10 @@
                     <div class="space-y-3">
                         <div>
                             <div class="flex justify-between text-xs mb-1">
-                                <span>Français</span>
+                                <span>Français / Arabe</span>
                                 <span class="text-indigo-400">Natal</span>
                             </div>
-                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-                                <div class="bg-indigo-500 h-full w-full"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between text-xs mb-1">
-                                <span>Arabe</span>
-                                <span class="text-indigo-400">Natal</span>
-                            </div>
-                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                            <div class="w-full bg-slate-800 h-1 rounded-full overflow-hidden">
                                 <div class="bg-indigo-500 h-full w-full"></div>
                             </div>
                         </div>
@@ -133,8 +126,8 @@
                                 <span>Anglais</span>
                                 <span class="text-indigo-400">Professionnel</span>
                             </div>
-                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-                                <div class="bg-indigo-500 h-full w-3/4"></div>
+                            <div class="w-full bg-slate-800 h-1 rounded-full overflow-hidden">
+                                <div class="bg-indigo-500 h-full w-[75%]"></div>
                             </div>
                         </div>
                     </div>
@@ -142,6 +135,40 @@
             </div>
 
             <div class="md:col-span-2 space-y-8">
+                
+                <section class="glass p-8 border-l-4 border-indigo-500">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-graduation-cap text-indigo-500"></i> Formation & Spécialisations
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <div class="relative p-5 rounded-2xl bg-indigo-500/10 border border-indigo-500/20">
+                            <div class="absolute -top-3 right-4 bg-indigo-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-tighter shadow-lg">
+                                En cours
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="text-indigo-400 text-xl"><i class="fa-solid fa-bullseye"></i></div>
+                                <div>
+                                    <h3 class="font-bold text-white text-lg">Expertise en Media Buying</h3>
+                                    <p class="text-indigo-300 font-medium">L'Académie</p>
+                                    <p class="text-slate-400 text-sm mt-2">Maîtrise de l'acquisition payante, optimisation des campagnes Meta & Google Ads, analyse de data et stratégies de conversion.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                                <h3 class="font-bold text-sm text-white">Master Marketing & Communication</h3>
+                                <p class="text-slate-500 text-xs">Université Hassan II</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                                <h3 class="font-bold text-sm text-white">Licence Gestion des Entreprises</h3>
+                                <p class="text-slate-500 text-xs">Spécialisation Commerciale</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section class="glass p-8">
                     <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
                         <i class="fa-solid fa-briefcase text-indigo-500"></i> Expériences Professionnelles
@@ -154,60 +181,42 @@
                                 <h3 class="text-lg font-bold text-white">Directrice Commerciale Média</h3>
                                 <span class="text-xs font-bold bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full">2015 - Présent</span>
                             </div>
-                            <p class="text-indigo-400 text-sm font-medium mb-3">Régie Média Leader | Casablanca</p>
+                            <p class="text-indigo-400 text-sm font-medium mb-3 underline decoration-indigo-500/30 underline-offset-4">Régie Média Leader | Casablanca</p>
                             <ul class="text-slate-400 text-sm space-y-2 list-disc list-inside">
-                                <li>Pilotage de la stratégie commerciale et atteinte des objectifs de CA.</li>
-                                <li>Négociation et gestion d'un portefeuille de clients stratégiques (Grands Comptes).</li>
-                                <li>Management et animation d'une équipe de commerciaux.</li>
+                                <li>Pilotage de la stratégie commerciale globale.</li>
+                                <li>Négociation de contrats cadres avec les régies et annonceurs.</li>
+                                <li>Supervision et coaching d'une force de vente.</li>
                             </ul>
                         </div>
 
                         <div class="relative">
-                            <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500/50 rounded-full border-4 border-[#0f172a]"></div>
+                            <div class="absolute -left-[31px] top-0 w-4 h-4 bg-slate-700 rounded-full border-4 border-[#0f172a]"></div>
                             <div class="mb-1 flex justify-between items-start flex-wrap gap-2">
                                 <h3 class="text-lg font-bold text-white">Chef de Publicité Senior</h3>
                                 <span class="text-xs font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-full">2008 - 2014</span>
                             </div>
-                            <p class="text-indigo-400 text-sm font-medium mb-3">Agence Conseil en Communication</p>
+                            <p class="text-indigo-400 text-sm font-medium mb-3 underline decoration-indigo-500/30 underline-offset-4">Agence Conseil en Communication</p>
                             <ul class="text-slate-400 text-sm space-y-2 list-disc list-inside">
-                                <li>Développement du portefeuille client et conseil en mix-média.</li>
-                                <li>Mise en place de campagnes publicitaires 360°.</li>
+                                <li>Conseil stratégique en mix-média (Presse, Radio, Digital).</li>
+                                <li>Gestion de portefeuilles clients diversifiés.</li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
-                <section class="glass p-8">
-                    <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
-                        <i class="fa-solid fa-graduation-cap text-indigo-500"></i> Formation
-                    </h2>
-                    <div class="space-y-6">
-                        <div class="flex gap-4">
-                            <div class="text-indigo-500 mt-1"><i class="fa-solid fa-circle-check"></i></div>
-                            <div>
-                                <h3 class="font-bold text-white">Master en Marketing & Communication</h3>
-                                <p class="text-slate-400 text-sm">Université Hassan II / École de Commerce</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4">
-                            <div class="text-indigo-500 mt-1"><i class="fa-solid fa-circle-check"></i></div>
-                            <div>
-                                <h3 class="font-bold text-white">Licence en Gestion des Entreprises</h3>
-                                <p class="text-slate-400 text-sm">Spécialisation Développement Commercial</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
 
-        <footer class="mt-8 text-center no-print">
-            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-full font-bold transition flex items-center gap-2 mx-auto shadow-lg shadow-indigo-500/20">
-                <i class="fa-solid fa-download"></i> Télécharger le CV (PDF)
+        <footer class="mt-8 text-center no-print pb-10">
+            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-500 text-white px-10 py-3 rounded-full font-bold transition-all flex items-center gap-2 mx-auto shadow-xl shadow-indigo-500/20 active:scale-95">
+                <i class="fa-solid fa-file-pdf"></i> Enregistrer en PDF
             </button>
-            <p class="mt-6 text-slate-500 text-xs uppercase tracking-widest">© 2026 Asmaa Lahlou — Propulsé par Tailwind CSS</p>
+            <p class="mt-8 text-slate-600 text-[10px] uppercase tracking-[0.2em]">© 2026 Asmaa Lahlou — Conception Digitale</p>
         </footer>
     </div>
 
 </body>
 </html>
+     
+
+              
