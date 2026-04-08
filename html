@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmaa Lahlou | CV Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #0f172a;
+            color: #f1f5f9;
+            margin: 0;
+        }
+
+        .main-gradient {
+            background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+            min-height: 100vh;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .glass:hover {
+            border-color: rgba(129, 140, 248, 0.4);
+        }
+
+        .accent-text {
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .badge {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.8rem;
+            color: #a5b4fc;
+        }
+
+        .timeline-border {
+            border-left: 2px solid rgba(99, 102, 241, 0.2);
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { background: white; color: black; }
+            .glass { border: 1px solid #eee; background: white; color: black; backdrop-filter: none; }
+            .accent-text { -webkit-text-fill-color: #4f46e5; }
+        }
+    </style>
+</head>
+<body class="main-gradient antialiased p-4 md:p-10">
+
+    <div class="max-w-5xl mx-auto">
+        <header class="glass p-8 md:p-12 mb-8 text-center relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+            
+            <div class="w-24 h-24 bg-indigo-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-bold text-white shadow-xl shadow-indigo-500/20">
+                AL
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-3 tracking-tight">Asmaa Lahlou</h1>
+            <p class="text-xl md:text-2xl font-semibold accent-text mb-8 uppercase tracking-widest">Directrice Commerciale Média</p>
+            
+            <div class="flex flex-wrap justify-center gap-6 no-print">
+                <a href="mailto:asmaalahlou3@gmail.com" class="flex items-center gap-2 hover:text-indigo-400 transition">
+                    <i class="fa-solid fa-envelope"></i> asmaalahlou3@gmail.com
+                </a>
+                <a href="tel:+212615602263" class="flex items-center gap-2 hover:text-indigo-400 transition">
+                    <i class="fa-solid fa-phone"></i> +212 6 15 60 22 63
+                </a>
+                <span class="flex items-center gap-2 text-slate-400">
+                    <i class="fa-solid fa-location-dot"></i> Casablanca, Maroc
+                </span>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="space-y-8">
+                <section class="glass p-6">
+                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Profil</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed italic">
+                        "Experte en stratégie média avec plus de 20 ans d'expérience. Spécialisée dans la gestion de grands comptes, le développement commercial et l'optimisation des revenus publicitaires."
+                    </p>
+                </section>
+
+                <section class="glass p-6">
+                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Expertises</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge">Négociation B2B</span>
+                        <span class="badge">Stratégie Média</span>
+                        <span class="badge">Management</span>
+                        <span class="badge">Grands Comptes</span>
+                        <span class="badge">Marketing Digital</span>
+                        <span class="badge">Vente d'Espaces</span>
+                    </div>
+                </section>
+
+                <section class="glass p-6">
+                    <h2 class="text-indigo-400 font-bold uppercase text-xs tracking-widest mb-4">Langues</h2>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span>Français</span>
+                                <span class="text-indigo-400">Natal</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-500 h-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span>Arabe</span>
+                                <span class="text-indigo-400">Natal</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-500 h-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span>Anglais</span>
+                                <span class="text-indigo-400">Professionnel</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-500 h-full w-3/4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="md:col-span-2 space-y-8">
+                <section class="glass p-8">
+                    <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fa-solid fa-briefcase text-indigo-500"></i> Expériences Professionnelles
+                    </h2>
+                    
+                    <div class="space-y-10 timeline-border pl-6 relative">
+                        <div class="relative">
+                            <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500 rounded-full border-4 border-[#0f172a]"></div>
+                            <div class="mb-1 flex justify-between items-start flex-wrap gap-2">
+                                <h3 class="text-lg font-bold text-white">Directrice Commerciale Média</h3>
+                                <span class="text-xs font-bold bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full">2015 - Présent</span>
+                            </div>
+                            <p class="text-indigo-400 text-sm font-medium mb-3">Régie Média Leader | Casablanca</p>
+                            <ul class="text-slate-400 text-sm space-y-2 list-disc list-inside">
+                                <li>Pilotage de la stratégie commerciale et atteinte des objectifs de CA.</li>
+                                <li>Négociation et gestion d'un portefeuille de clients stratégiques (Grands Comptes).</li>
+                                <li>Management et animation d'une équipe de commerciaux.</li>
+                            </ul>
+                        </div>
+
+                        <div class="relative">
+                            <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500/50 rounded-full border-4 border-[#0f172a]"></div>
+                            <div class="mb-1 flex justify-between items-start flex-wrap gap-2">
+                                <h3 class="text-lg font-bold text-white">Chef de Publicité Senior</h3>
+                                <span class="text-xs font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-full">2008 - 2014</span>
+                            </div>
+                            <p class="text-indigo-400 text-sm font-medium mb-3">Agence Conseil en Communication</p>
+                            <ul class="text-slate-400 text-sm space-y-2 list-disc list-inside">
+                                <li>Développement du portefeuille client et conseil en mix-média.</li>
+                                <li>Mise en place de campagnes publicitaires 360°.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="glass p-8">
+                    <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fa-solid fa-graduation-cap text-indigo-500"></i> Formation
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="text-indigo-500 mt-1"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h3 class="font-bold text-white">Master en Marketing & Communication</h3>
+                                <p class="text-slate-400 text-sm">Université Hassan II / École de Commerce</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-indigo-500 mt-1"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h3 class="font-bold text-white">Licence en Gestion des Entreprises</h3>
+                                <p class="text-slate-400 text-sm">Spécialisation Développement Commercial</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="mt-8 text-center no-print">
+            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-full font-bold transition flex items-center gap-2 mx-auto shadow-lg shadow-indigo-500/20">
+                <i class="fa-solid fa-download"></i> Télécharger le CV (PDF)
+            </button>
+            <p class="mt-6 text-slate-500 text-xs uppercase tracking-widest">© 2026 Asmaa Lahlou — Propulsé par Tailwind CSS</p>
+        </footer>
+    </div>
+
+</body>
+</html>
